@@ -4,7 +4,9 @@
 #define bool    int
 #define true    (1)
 #define false   (0)
-​
+//or...
+//typedef enum{false,true} bool;​
+
 // kullanıcıdan başlangıç ve bitiş aralıklarını alacağımız fonktiyon
 void degerAl(int *sayi1, int *sayi2);
 ​
