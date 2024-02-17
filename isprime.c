@@ -1,12 +1,12 @@
 #include "isprime.h"
 
-int is_prime(const int start, const int *sayi2)
-{
-        if (start == 0)
-                start = 1;
-    
-        if (start < 0 || end <= start)
-                return -1
+int is_prime(int start, int end)
+{    
+        if (start == 1 || start == 2)
+                return 1;
+
+        if (start < 1 || end <= start)
+                return -1;
     
         int check;
         for(;start < end; start++) {
