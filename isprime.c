@@ -1,16 +1,17 @@
 #include "isprime.h"
 
-int is_prime(int start, int end)
+int is_prime(int end)
 {    
-        if (start == 1 || start == 2)
+	int start = 2;
+        if (end == 1 || end == 2)
                 return 1;
 
-        if (start < 1 || end <= start)
+        if (end < start)
                 return -1;
     
         int check;
         for(;start < end; start++) {
-                if (start %2 == 0) {
+                if (end %start == 0) {
                         return 0;
                 }
         }
