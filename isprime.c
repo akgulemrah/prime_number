@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-int is_prime(int start, int end);
+#include "isprime.h"
 
 int is_prime(const int start, const int *sayi2)
 {
