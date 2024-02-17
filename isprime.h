@@ -4,6 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int is_prime(int end);
+int is_prime(long long end);
 
 #endif
