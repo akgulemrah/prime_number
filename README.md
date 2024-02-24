@@ -16,8 +16,6 @@ int main(void)
                 printf("%d is prime number.\n", num);
         else 
                 printf("%d is not prime number.\n", num);
-
-
         return 0;
 }
 ```
