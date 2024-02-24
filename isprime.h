@@ -1,8 +1,6 @@
 #ifndef ISPRIME_H
 #define ISPRIME_H
 
-#include <stdlib.h>
-
 int is_prime(long long end)
 {
 	int check;
