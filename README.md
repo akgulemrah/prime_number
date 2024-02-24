@@ -7,6 +7,7 @@ Please, just copy the code from the header file and paste it into your main file
 Or:
 ```C
 #include "isprime.h"
+#include <stdio.h>
 
 int main(void)
 {
